@@ -2,7 +2,7 @@
 
 ## 레퍼런스 사이트
 
-[https://www.apple.com/kr/imac-24/?afid=p238|swesbHzdy-dc_mtid_18707vxu38484_pcrid_660324231294_pgrid_130691116768_pntwk_g_pchan__pexid__&cid=aos-kr-kwgo-mac--slid---product-](https://www.apple.com/kr/imac-24/?afid=p238%7CswesbHzdy-dc_mtid_18707vxu38484_pcrid_660324231294_pgrid_130691116768_pntwk_g_pchan__pexid__&cid=aos-kr-kwgo-mac--slid---product-)
+[Apple iMac](https://www.apple.com/kr/imac-24/?afid=p238%7CswesbHzdy-dc_mtid_18707vxu38484_pcrid_660324231294_pgrid_130691116768_pntwk_g_pchan__pexid__&cid=aos-kr-kwgo-mac--slid---product-)
 
 ## CSS/JS로 구현하는 애니메이션
 
