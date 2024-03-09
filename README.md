@@ -77,7 +77,7 @@ transform: skewY(1.07rad);
 - animation은, 엘리먼트의 로드가 Trigger
 - 중간 상태들이 부드럽게 이어지는 것
 
-**@keyframes**
+#### @keyframes
 
 ```css
 @keyframes identifier {
@@ -89,7 +89,7 @@ transform: skewY(1.07rad);
 
 - 0%: from, 100%: to 로도 지정 가능
 
-**animation**
+#### animation
 
 - animation-delay
 - animation-direction
@@ -139,22 +139,22 @@ transform: skewY(1.07rad);
 
 ### Animation
 
-### Enter animations
+#### Enter animations
 
 - 처음 로드될 때, style이나 initial과 animate 값이 다를 경우 애니메이션 시작
 - initial에 false를 주어 enter animations를 비활성화 할 수 있음
 
-### Exit animations
+#### Exit animations
 
 - AnimatePresence 컴포넌트 사용
 
-### Keyframes
+#### Keyframes
 
 - animate 값을 array로 넘기기
 
 ### Transition
 
-### Tween
+#### Tween
 
 - duration-based animation
 - properties
@@ -162,7 +162,7 @@ transform: skewY(1.07rad);
     - ease
     - times
 
-### Spring
+#### Spring
 
 - simulates spring physics
 - properties
