@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #1d1d1f;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-video-section__video {
+  /* TODO */
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.hero-text-section {
+  text-align: center;
+  width: 980px;
+  margin: 32px auto 0;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 600;
+  padding: 0 15%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  word-break: keep-all;
+}
+.color-section {
+  width: 980px;
+  margin: 200px auto 0;
+  padding: 0 10%;
+  font-size: 52px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.color-section__bottom-row {
+  /* TODO */
+  height: calc(52px * 1.3);
+  overflow: hidden;
+}
+.color-section__color-text {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 280px;
+  transition: transform 0.3s ease-in-out; /* TODO */
+}
+
+.thin-section {
+  padding-top: 80px;
+  position: relative; /* TODO */
+  width: 980px;
+  height: 300vh;
+}
+.thin-section__text-wrapper {
+  position: sticky; /* TODO */
+  top: 80px; /* TODO */
+  margin-left: 50%;
+}
+.thin-section__text {
+  font-size: 52px;
+  line-height: 1.3;
+  font-weight: 600;
+  transform-origin: 0px 0px; /* TODO */
+}
+
+.display-section {
+  position: relative; /* TODO */
+}
+.display-section__white-cover {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: absolute; /* TODO */
+  top: 0; /* TODO */
+  z-index: 5; /* TODO */
+}
+.display-section__image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: sticky; /* TODO */
+  top: 0; /* TODO */
+}
+.display-section__text {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: white;
+  opacity: 0;
+}
+.display-section__image-space {
+  height: 100vh;
+}
+.display-section__empty-space {
+  background-color: white;
+  height: 500vh;
+}
+
+.color-green {
+  color: #10505b;
+}
+.color-yellow {
+  color: #d48207;
+}
+.color-orange {
+  color: #e36942;
+}
+.color-pink {
+  color: #b72c31;
+}
+.color-purple {
+  color: #353a71;
+}
+.color-blue {
+  color: #25476d;
+}
+.color-silver {
+  color: #a1a1a6;
+}
+.gradient-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 116px 50%;
+  background-size: 100%;
+  background-image: linear-gradient(
+    120deg,
+    #a1a1a6 0%,
+    #10505b 40%,
+    #d48207 65%,
+    #e36942 73%,
+    #b72c31 82%,
+    #353a71 93%,
+    #353a71 100%
+  );
+}
